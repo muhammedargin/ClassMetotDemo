@@ -13,9 +13,9 @@ namespace ClassMetotDemo
         {   //müşteri oluşturulacak
             Customer margin1690 = new Customer();
             //özellikler tanımlanacak
-            margin1690.setName = "Muhammed";
-            margin1690.setSurname = "ARGİN";
-            margin1690.setRegion = "Bursa";
+            margin1690.Name = "Muhammed";
+            margin1690.Surname = "ARGİN";
+            margin1690.Region = "Bursa";
             //customerManager oluşturulacak
             CustomerManager manager1 = new CustomerManager();
             // showList çağırılıp listenin boş olduğu görülecek
@@ -29,9 +29,9 @@ namespace ClassMetotDemo
             Console.WriteLine("------------------------------------");
             //ikinci müşteri üretilip ikinci ekleme yapılacak
             Customer zyargin6060 = new Customer();
-            zyargin6060.setName = "Zeynep";
-            zyargin6060.setSurname = "Argin";
-            zyargin6060.setRegion = "Bursa";
+            zyargin6060.Name = "Zeynep";
+            zyargin6060.Surname = "Argin";
+            zyargin6060.Region = "Bursa";
             manager1.Add(zyargin6060);
             manager1.ShowList();
             Console.WriteLine("------------------------------------");
