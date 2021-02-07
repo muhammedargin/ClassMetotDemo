@@ -13,22 +13,22 @@ using System.Collections;
      
        
 
-        public string setName
+        public string Name
         {
             get { return customerName; }
-            set { customerName = setName; }
+            set { customerName = value; }
 
         }
-        public string setSurname
+        public string Surname
         {
             get { return customerSurname; }
-            set { customerSurname = setSurname; }
+            set { customerSurname = value; }
 
         }
-        public string setRegion
+        public string Region
         {
             get { return customerRegion; }
-            set { customerRegion = setRegion; }
+            set { customerRegion = value; }
 
         }
 
